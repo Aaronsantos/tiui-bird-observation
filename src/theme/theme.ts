@@ -1,4 +1,4 @@
-import { colors, lightColorScheme, darkColorScheme } from "./colors";
+import { lightColorScheme, darkColorScheme } from "./colors";
 
 export const LightTheme = {
   colors: lightColorScheme,

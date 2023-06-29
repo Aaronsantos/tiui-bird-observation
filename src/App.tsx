@@ -4,7 +4,7 @@ import { useState } from "react";
 import styled from "styled-components";
 
 function App() {
-  const [themeMode, setThemeMode] = useState("light");
+  const [themeMode, setThemeMode] = useState<"dark" | "light">("light");
 
   console.log(THEMES.dark);
   const Section = styled.section`
